@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Evaluacion</title>
+	<link rel="icon" href="img/logo.jpg">
+	<link href="estilos.css" rel="stylesheet" type="text/css" >
+	<link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="index">
+<div id="desaparece">
+<h1>Examen de Ingl&eacute;s  B&aacute;sico</h1>
+<ul>
+	<li>Promedio minimo para aprobar: 60/100</li>
+	<li>Cantidad de preguntas:  15</li>
+</ul>
+</div>
+	<div id="colocar_nombre">
+		<p>Recuerde ingresar su nombre con el siguiente formato:<br><br>"Apellidos, Nombres"</p>
+		<form action="base.php" method="post">
+			<label for="nom">Ingrese su nombre:</label>
+			<input type="text" placeholder="escriba aqui" name="nombre" id="nom">
+			<input type="button" id="comenzar" value="Comenzar Examen">
+			<script src="programa.js"></script>
+		</form>	
+		<div id="caja_cert"></div>
+	</div>
+<div id="todo">
+<form action="base.php" method="post">
+	<div id="pagina1">
+			<article class="impares">
+				<p >1. ¿Cual de estas preguntas corresponde al clima?</p>
+				<label>Seleccione la correcta:</label>
+				<br>
+
+				<input type="radio" name="pregunta1" value="primera" id="primeraa">
+				<label class="si" for="primeraa">How's the weather?</label>
+				<br>
+
+				<input type="radio" name="pregunta1" value="segunda" id="segundaa">
+				<label for="segundaa">Where're you from?</label>
+				<br>
+
+				<input type="radio" name="pregunta1" value="tercera" id="terceraa">
+				<label for="terceraa">How're you doing?</label>
+			</article>
+			<article class="pares">
+				<p>2. ¿Como Se dice "Auto"?</p>
+				<label>Seleccione la correcta:</label>
+				<br>
+
+				<input type="radio" name="pregunta2" value="primera" id="primerab">
+				<label for="primerab">Flag</label>
+				<br>
+
+				<input type="radio" name="pregunta2" value="segunda" id="segundab">
+				<label class="si" for="segundab">Car</label>
+				<br>
+
+				<input type="radio" name="pregunta2" value="tercera" id="tercerab">
+				<label for="tercerab">Apple</label>
+			</article>
+
+			<article class="impares">
+				<p>3. Traducir la siguiente frase: &nbsp; She is a little woman"</p>
+				<label>Seleccione la correcta:</label>
+				<br>
+
+				<input type="radio" name="pregunta3" value="primera" id="primerac">
+				<label for="primerac">El es un gran hombre</label>
+				<br>
+
+				<input type="radio" name="pregunta3" value="segunda" id="segundac">
+				<label for="segundac">Ella es una linda mujer</label>
+				<br>
+
+				<input type="radio" name="pregunta3" value="tercera" id="tercerac">
+				<label for="tercerac">Ella es una mujer pequeña</label>
+			</article>
+
+			<article class="pares">
+				<p>4. ¿Como le pregunto la edad a una persona?</p>
+				<label>Seleccione la correcta:</label>
+				<br>
+
+				<input type="radio" name="pregunta4" value="primera" id="primerad">
+				<label for="primerad">"How are you?"</label>
+				<br>
+
+				<input type="radio" name="pregunta4" value="segunda" id="segundad">
+				<label for="segundad">"How old are you?"</label>
+				<br>
+
+				<input type="radio" name="pregunta4" value="tercera" id="tercerad">
+				<label for="tercerad">"What's your name?"</label>
+			</article>
+
+			<article class="impares">
+				<p>5. ¿Cual de los siguientes es un verbo?</p>
+				<label>Seleccione la correcta:</label>
+				<br>
+
+				<input type="radio" name="pregunta5" value="primera" id="primerae">
+				<label for="primerae">Run</label>
+				<br>
+
+				<input type="radio" name="pregunta5" value="segunda" id="segundae">
+				<label for="segundae">Gun</label>
+				<br>
+
+				<input type="radio" name="pregunta5" value="tercera" id="tercerae">
+				<label for="tercerae">Beer</label>
+			</article>
+			<input type="button" id="boton_sig" value="Siguiente &rarr;">
+			<script src="programa.js"></script>
+	</div>
+	<div id="pagina2">
+			<article class="pares">
+				<p>6. Traducir:</p>
+				<label>"Mi nombre es Juan"</label>
+				<br>
+				<input type="text"  placeholder="escriba aqui" id="respuesta6">
+
+			</article>
+					<article class="impares">
+				<p>7. Traducir:</p>
+				<label>"Ellos son de Mexico"</label>
+				<br>
+				<input type="text" placeholder="escriba aqui" id="respuesta7">
+
+			</article>
+					<article class="pares">
+				<p>8. Traducir:</p>
+				<label>"La madre de el tiene un perro"</label>
+				<br>
+				<input type="text" placeholder="escriba aqui" id="respuesta8">
+
+			</article>
+					<article class="impares">
+				<p>9. Traducir:</p>
+				<label>"Mi color favorito es el verde"</label>
+				<br>
+				<input type="text" placeholder="escriba aqui" id="respuesta9">
+
+			</article>
+					<article class="pares">
+				<p>10. Traducir:</p>
+				<label>"¿Que hora es?"</label>
+				<br>
+				<input type="text" placeholder="escriba aqui" id="respuesta10">
+
+			</article>
+
+			<input type="button" id="boton_sig2" value="Siguiente &rarr;">
+			<script src="programa.js"></script>
+
+	</div>
+	<div id="pagina3">
+			<article class="imag">
+				<p>11. Escriba el nombre de<br> lo que se ve en la imagen.</p>
+				<br>
+				<div><img src="img/avion.jpg" alt="" height="100" width="150"></div>
+				<input type="text" placeholder="escriba aqui" id="respuesta11">
+
+			</article>
+					<article class="imag">
+				<p>12.  Escriba el nombre de<br> lo que se ve en la imagen.</p>
+				<br>
+				<div><img src="img/tren.jpg" alt="" height="100" width="150"></div>
+				<input type="text" placeholder="escriba aqui" id="respuesta12">
+
+			</article>
+					<article class="imag">
+				<p>13.  Escriba el nombre de<br> lo que se ve en la imagen.</p>
+				<br>
+				<div><img src="img/tomato.jpg" alt="" height="100" width="150"></div>
+				<input type="text" placeholder="escriba aqui" id="respuesta13">
+
+			</article>
+							<article class="imag">
+				<p>14. Escriba el nombre de<br> lo que se ve en la imagen. </p>
+				<br>
+				<div><img src="img/silla.jpg" alt="" height="100" width="150"></div>
+				<input type="text" placeholder="escriba aqui" id="respuesta14">
+
+			</article>
+					<article class="imag">
+				<p>15. Escriba el nombre de<br> lo que se ve en la imagen. </p>
+				<br>
+				<div><img src="img/cama.jpg" alt="" height="100" width="150"></div>
+				<input type="text" placeholder="escriba aqui" id="respuesta15">
+
+			</article>
+			<input type="button" id="boton_final" value="Terminar y enviar">
+			<script src="programa.js"></script>
+	</div>
+</form>
+</div>
+
+<div id="respuestas">
+
+		<article class="impares">
+			<p >1. ¿Cual de estas preguntas corresponde al clima?</p>
+			<label>How's the weather?</label>
+			<br>
+		</article>
+
+		<article class="pares">
+			<p>2. ¿Como Se dice "Auto"?</p>
+			<label>Car</label>
+			<br>
+		</article>
+
+		<article class="impares">
+			<p>3. Traducir la siguiente frase: &nbsp; "She is a little woman"</p>
+			<label>Ella es una mujer pequeña</label>
+			<br>
+		</article>
+
+		<article class="pares">
+			<p>4. ¿Como le pregunto la edad a una persona?</p>
+			<label>"How old are you?"</label>
+			<br>
+		</article>
+		<article class="impares">
+			<p>5. ¿Cual de los siguientes es un verbo?</p>
+			<label>Run</label>
+			<br>
+		</article>
+
+		<article class="pares">
+			<p>6. "Mi nombre es Juan"</p>		
+			<label>Traduccion: &nbsp; "My name is Juan"</label>
+		</article>
+
+		<article class="impares">
+			<p>7. "Ellos son de Mexico"</p>
+			<label>Traduccion: &nbsp; "They are from Mexico"</label>
+		</article>
+
+		<article class="pares">
+			<p>8. "La madre de el tiene un perro"</p>	
+			<label>Traduccion: &nbsp; "his mother's has a dog"</label>
+		</article>
+
+		<article class="impares">
+			<p>9. "Mi color favorito es el verde"</p>
+			<label>Traduccion: &nbsp; "My favourite color is green"</label>
+		</article>
+
+		<article class="pares">
+			<p>10. "¿Que hora es?"</p>
+			<label>Traduccion: &nbsp; "What time is it?"</label>
+		</article>
+
+		<article class="impares">
+				<p>11. Airplane.</p>
+				<br>
+				<div><img src="img/avion.jpg" alt="" height="100" width="150"></div>
+		</article>
+
+		<article class="pares">
+				<p>12. Train.</p>
+				<br>
+				<div><img src="img/tren.jpg" alt="" height="100" width="150"></div>
+		</article>
+
+		<article class="impares">
+				<p>13.  Tomato.</p>
+				<br>
+				<div><img src="img/tomato.jpg" alt="" height="100" width="150"></div>
+		</article>
+
+		<article class="pares">
+				<p>14. Chair. </p>
+				<br>
+				<div><img src="img/silla.jpg" alt="" height="100" width="150"></div>
+		</article>
+
+		<article class="impares">
+				<p>15. Bed.</p>
+				<br>
+				<div><img src="img/cama.jpg" alt="" height="100" width="150"></div>
+		</article>
+
+<h2>Respuestas:<br></h2>
+
+<div id="caja"></div>
+<div id="nota"></div>
+<input type="button" name="boton_aprob" value="Ver Certificado" id="boton_aprob">
+<script src="programa.js"></script>
+<div id="malanota"></div>
+</div>
+
+
+<div id="cert">
+	<h1 id="tit_cert">CERTIFICADO DE APROBACI&Oacute;N DEL EXAMEN DE INGL&Eacute;S B&Aacute;SICO</h1>
+	<p id="text_cert">Se reconoce que <br><br>El Sr/a <em id="nom_apro"></em> <br><br>ha realizado y aprobado el examen de ingl&eacute;s b&aacute;sico</p>
+
+	<div id="pie">Russotto, Juan Pablo&copy;</div>
+</div>
+<footer id="tambien_desaparece">
+	<div>Examen de Laboratorio III - UTN Haedo<br>Russotto, Juan Pablo&copy;</div>
+
+
+</footer>
+
+
+</body>
+</html>
